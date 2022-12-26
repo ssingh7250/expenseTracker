@@ -1,0 +1,20 @@
+
+.image-size{
+    min-width: 100%;
+    max-height: 50vh;
+}
+
+.header-button{
+    float: right;
+    color:brown;
+    padding: 10px 70px;
+    border-radius: 25px;
+}
+
+.cartItemsNumber{
+   padding: 1px 10px ;
+   color: black;
+   background-color: whitesmoke;
+   margin-left: 4px;
+   border-radius: 5px;
+}

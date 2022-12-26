@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .center{
+            text-align: center;
+        }
+        .main{
+            padding-top: 10%;
+            justify-content: center;
+            background-color: purple;
+            width: 100vw;
+            height: 100vh;
+        }
+        input{
+            margin: 4px;
+        }
+
+        form{
+            
+            width: 70%;
+            margin-left: 15%;
+            color: white;
+            border: 1px solid orange;
+        }
+
+        .form-input-box{
+            text-align: center;
+        }
+
+        button{
+            width: 80%;
+            padding: 5px 10px 5px;
+            text-align: ceneter;
+            background-color: orange;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        hr{
+            width: 80%;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form>
+            <h3 class="center">Book a Call</h3>
+            <p class="center">Book a call slot and our representative will call you in give time</p>
+            <hr />
+            <div class="form-input-box">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />   <br />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" /> <br />
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" name="phone" /> <br />
+            <label for="time">Time For call</label>
+            <input type="date" id="time" name="date" />
+            <input type="time" id="time" name="time" />
+            <button>Get a Call</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+.summary-card{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    background-color: #6a5752;
+}

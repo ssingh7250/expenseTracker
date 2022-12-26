@@ -1,0 +1,45 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-add-item{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.mealitem{
+    background-color: white;
+    color: black;
+}
+
+.item-name{
+    font-weight: bold;
+}
+.item-desc{
+    font-style: italic;
+}
+.item-price{
+    color: brown;
+    font-weight: bold;
+}
+.add-button-meal{
+    font-weight: bold;
+    padding: 3px 20px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;   
+}
+
+.input-meal{
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.label-meal{
+    font-weight: bold;
+}
