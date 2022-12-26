@@ -1,11 +1,15 @@
 import React, { useState ,useRef} from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 import "./Login.css";
 
 const Login = () => {
+
+  const navigate = useNavigate()
   const [login, setLogin] = useState(false);
   const inputEmailRef = useRef()
   const inputPasswordRef = useRef()
@@ -56,6 +60,8 @@ const Login = () => {
                 alert("sign up successfully")
             }else{
                 alert("Login SuccessFully")
+                navigate("/home")
+                
             }
         }else{
           const data = await res.json;
