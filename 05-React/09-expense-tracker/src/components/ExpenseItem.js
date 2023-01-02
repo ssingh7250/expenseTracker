@@ -51,7 +51,10 @@ import './ExpenseItem.css'
     }
 
   return (<>
-       <li> <b>Category</b> :-{props.item.category} <b>Amount</b>:-${props.item.amount} <b>Description</b>:-{props.item.description} <button className='bg-blue' onClick={editHandler}>Edit</button> <button className='bg-red' onClick={deleteHandler}>Delete</button> </li>
+       <li> <b>Category</b> :-{props.item.category} <b>Amount</b>:-${props.item.amount} 
+       <b>Description</b>:-{props.item.description}
+        <button className='bg-blue' onClick={editHandler}>Edit</button>
+         <button className='bg-red' onClick={deleteHandler}>Delete</button> </li>
         {/* <li><span>{props.item.amount}</span>  <span>{props.item.description}</span>  <span> {props.item.category}</span> `
         <button onClick={editHandler}>Edit</button>   <button onClick={deleteHandler}>Delete</button> </li> */}
      </>
